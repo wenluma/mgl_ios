@@ -11,4 +11,5 @@
 @interface Person : NSObject
 @property (copy, nonatomic) NSString *name;
 @property (assign, nonatomic) NSUInteger age;
+@property (assign, nonatomic) Sex sex;// yes 男， no 代表 女
 @end
