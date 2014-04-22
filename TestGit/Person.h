@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface Person : NSObject
-
+@property (copy, nonatomic) NSString *name;
+@property (assign, nonatomic) NSUInteger age;
 @end
