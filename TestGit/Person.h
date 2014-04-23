@@ -7,6 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+typedef NS_ENUM(BOOL, Sex) {
+    F = NO,
+    M = YES
+};
 
 @interface Person : NSObject
 @property (copy, nonatomic) NSString *name;
