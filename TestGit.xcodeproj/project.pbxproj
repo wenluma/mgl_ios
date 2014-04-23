@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E6047721907562F002E29FA /* MyNSOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6047711907562F002E29FA /* MyNSOperation.m */; };
 		8E6938B7190674DE004CE822 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6938B6190674DE004CE822 /* Foundation.framework */; };
 		8E6938B9190674DE004CE822 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6938B8190674DE004CE822 /* CoreGraphics.framework */; };
 		8E6938BB190674DE004CE822 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6938BA190674DE004CE822 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E6047701907562F002E29FA /* MyNSOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNSOperation.h; sourceTree = "<group>"; };
+		8E6047711907562F002E29FA /* MyNSOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNSOperation.m; sourceTree = "<group>"; };
 		8E6938B3190674DE004CE822 /* TestGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E6938B6190674DE004CE822 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8E6938B8190674DE004CE822 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,8 @@
 				8E6938E619067834004CE822 /* RootViewController.m */,
 				8E6938EB19067E18004CE822 /* Person.h */,
 				8E6938EC19067E18004CE822 /* Person.m */,
+				8E6047701907562F002E29FA /* MyNSOperation.h */,
+				8E6047711907562F002E29FA /* MyNSOperation.m */,
 				8E6938C8190674DE004CE822 /* Images.xcassets */,
 				8E6938BD190674DE004CE822 /* Supporting Files */,
 			);
@@ -254,6 +259,7 @@
 				8E6938C7190674DE004CE822 /* MGLAppDelegate.m in Sources */,
 				8E6938ED19067E18004CE822 /* Person.m in Sources */,
 				8E6938E719067834004CE822 /* RootViewController.m in Sources */,
+				8E6047721907562F002E29FA /* MyNSOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
