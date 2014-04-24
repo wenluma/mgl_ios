@@ -22,6 +22,7 @@
 		8E6938DC190674DE004CE822 /* TestGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6938DB190674DE004CE822 /* TestGitTests.m */; };
 		8E6938E719067834004CE822 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6938E619067834004CE822 /* RootViewController.m */; };
 		8E6938ED19067E18004CE822 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6938EC19067E18004CE822 /* Person.m */; };
+		8E77E8721908EBBB005C7E58 /* NSNull+OVNatural.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E77E8711908EBBB005C7E58 /* NSNull+OVNatural.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		8E6938E619067834004CE822 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		8E6938EB19067E18004CE822 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		8E6938EC19067E18004CE822 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		8E77E8701908EBBB005C7E58 /* NSNull+OVNatural.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+OVNatural.h"; sourceTree = "<group>"; };
+		8E77E8711908EBBB005C7E58 /* NSNull+OVNatural.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+OVNatural.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				8E6938EC19067E18004CE822 /* Person.m */,
 				8E6047701907562F002E29FA /* MyNSOperation.h */,
 				8E6047711907562F002E29FA /* MyNSOperation.m */,
+				8E77E8701908EBBB005C7E58 /* NSNull+OVNatural.h */,
+				8E77E8711908EBBB005C7E58 /* NSNull+OVNatural.m */,
 				8E6938C8190674DE004CE822 /* Images.xcassets */,
 				8E6938BD190674DE004CE822 /* Supporting Files */,
 			);
@@ -259,6 +264,7 @@
 				8E6938C7190674DE004CE822 /* MGLAppDelegate.m in Sources */,
 				8E6938ED19067E18004CE822 /* Person.m in Sources */,
 				8E6938E719067834004CE822 /* RootViewController.m in Sources */,
+				8E77E8721908EBBB005C7E58 /* NSNull+OVNatural.m in Sources */,
 				8E6047721907562F002E29FA /* MyNSOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
